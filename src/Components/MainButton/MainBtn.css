@@ -1,0 +1,29 @@
+#btn_link{
+    display: flex;
+    background-color: var(--color-btn-light);
+    padding: 15px 45px;
+    border-radius: 10px;
+    width: 252px;
+    align-items: center;
+    justify-content: center;
+    transition: 100ms ease-in;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+@media (max-width: 659px) {
+    #btn_link{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+#btn_link:hover{
+    background: var(--color-btn-light-hover);
+    cursor: pointer;
+}
+@media (max-width: 659px) {
+    .btn{
+        margin-bottom: 30px;
+    }
+}

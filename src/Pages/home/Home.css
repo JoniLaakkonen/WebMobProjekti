@@ -1,0 +1,74 @@
+.home_main{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/public/Assets/Images/pizzatable.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media (max-width: 1330px) {
+    @media (max-height: 840px) {
+        .home_main{
+            height: 100%;
+        }
+    }
+}
+@media (max-height: 799px) {
+    .home_main{
+        height: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .home_main{
+        height: 100%;
+    }
+}
+#home_Header{
+    color: var(--color-text-light);
+    font-size: 52px;
+    text-align: center;
+    margin-top: 70px;
+}
+.entryText{
+    margin: 100px 45%;
+    width: 50%;
+}
+.entryquote{
+    color: var(--color-text-light);
+}
+.buttons{
+    display: flex;
+    padding: 0 30% 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (max-width: 1600px) {
+    .buttons{
+        padding: 0 20% 50px;
+    }
+}
+@media (max-width: 990px) {
+    .buttons{
+        padding: 0 10% 50px;
+    }
+}
+
+
+
+/*---------------------Mobile----------------------*/
+
+@media (max-width: 659px) {
+    .entryText{
+        margin: 100px 10%;
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--color-nav);
+    }
+    .buttons{
+        flex-flow: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}

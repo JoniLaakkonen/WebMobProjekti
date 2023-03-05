@@ -1,0 +1,115 @@
+.recipe_main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/public/Assets/Images/pizzatable.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: start;
+}
+#recipe_Header{
+    width: 90%;
+    background-color: var(--color-bg);
+    color: var(--color-text-light);
+    font-size: 42px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+.recipe_details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-bg);
+    width: 90%;
+    padding: 5% 0;
+    margin-left: 5%;
+}
+#recipe_info{
+    width: 60%;
+    height: 300px;
+    padding: 15px 3rem;
+    border: 2px solid var(--color-text-light);
+    border-radius: 10px;
+    background: var(--color-infobox);
+}
+#foodimage{
+    width: 380px;
+    border-radius: 10px;
+}
+#incredients{
+    width: 50%;
+    min-height: 500px;
+    padding: 15px 3rem 3rem;
+    border: 2px solid var(--color-text-light);
+    border-radius: 10px;
+    background: var(--color-infobox);
+}
+#incredients p {
+    color: var(--color-text-light);
+    white-space: pre-line;
+    font-size: 22px;
+    text-align: start;
+}
+.recipe_guide_bg {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    min-height: 80vh;
+    max-width: 1730px;
+    background-color: var(--color-bg);
+    margin-left: 5%;
+    padding: 0 0 8vh;
+}
+.howToMake{
+    width: 70%;
+    height: 100%;
+    padding: 30px 3rem;
+    border: 2px solid var(--color-text-light);
+    border-radius: 10px;
+    background: var(--color-infobox);
+}
+.howToMake p {
+    white-space: pre-line;
+    text-align: start;
+    color: var(--color-text-light);
+    font-size: 18px;
+}
+@media (min-width: 1930px) {
+    .recipe_guide_bg, .recipe_details, #recipe_Header {
+        margin-left: calc((100vw - 1730px)/2);
+    }
+}
+
+
+/*---------------------Mobile----------------------*/
+@media (max-width: 705px) {
+    .recipe_guide_bg, .recipe_details, #recipe_Header {
+        width: 100%;
+        margin-left: 0;
+    }
+    .recipe_details{
+        flex-flow: column;
+    }
+    #foodimage{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #incredients{
+        width: 90%;
+        padding: 15px 15px 3rem;
+    }
+    .howToMake{
+        width: 90%;
+        margin-bottom: 50px;
+        padding: 15px 15px 3rem;
+    }
+}

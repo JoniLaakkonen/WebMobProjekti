@@ -1,0 +1,24 @@
+#btn_dark_link{
+    display: flex;
+    background: var(--color-btn-dark);
+    padding: 15px 45px;
+    border-radius: 10px;
+    width: 252px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-btn-light);
+    transition: 100ms ease-in;
+    text-decoration: none;
+    color: var(--color-text-light);
+    font-weight: bold;
+    font-size: 14px;
+}
+@media (max-width: 659px) {
+    #btn_dark_link{
+        width: 100%;
+    }
+}
+#btn_dark_link:hover{
+    background: var(--color-btn-dark-hover);
+    cursor: pointer;
+}

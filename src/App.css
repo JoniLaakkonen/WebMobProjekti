@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --color-text-light: #fafffb;
+    --color-btn-light: #fafffb;
+    --color-btn-light-hover: #d7d7d7;
+    --color-btn-dark-hover: #6a6a6a;
+    --color-btn-dark: #404040;
+    --color-bg: #404040;
+    --color-infobox: #595959;
+    --color-nav: #726e6e90;
+    --color-nav-dark: #43424290;
+
+    --img-etusivu: url(/public/Assets/Images/pizzatable.jpg);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    color: var(--color-text-light);
+}
