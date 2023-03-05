@@ -37,7 +37,7 @@ function Home() {
             </p>
           </article>
           <aside className='buttons'>
-            <MainBtn id='btn_element' where="/WebMobProjekti/gourmets" text="To Recipes"/>
+            <MainBtn id='btn_element' where="/WebMobProjekti/recipes" text="To Recipes"/>
             <MainBtnDark id='btn_element' where="/WebMobProjekti/about_me" at="contactme_form" text="Contact Me"/>
           </aside>
         </div>

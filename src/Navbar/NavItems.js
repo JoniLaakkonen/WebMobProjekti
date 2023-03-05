@@ -9,7 +9,7 @@ export const navItems = [
   {
     id: 2,
     title: "Food",
-    path: "/WebMobProjekti/gourmets",
+    path: "/WebMobProjekti/recipes",
     cName: "nav-item",
     itemId: "unactive"
   },
