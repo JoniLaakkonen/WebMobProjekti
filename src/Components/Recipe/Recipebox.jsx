@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./recipebox.css"
 
 function recipebox({recipe}) {
   return (
-    <a className='recipebox' href={recipe.linkTo}>
+    <Link className='recipebox' to={recipe.linkTo}>
       <img src={recipe.image} alt={recipe.alt} />
       <h5>{recipe.name}</h5>
       <small>{recipe.rating}</small>
-    </a>
+    </Link>
   )
 }
 

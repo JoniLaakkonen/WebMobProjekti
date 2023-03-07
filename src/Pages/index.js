@@ -5,6 +5,8 @@ import Taco from "./recipe/Taco"
 import Cappuchino from './recipe/Cappuchino'
 import GnocchiLihapullat from './recipe/GnocchiLihapullat'
 import Cake from './recipe/Cake'
+import NotFound from "./Error/Error";
+import Recipes from "./recipe/Recipes"
 
 
-export { Home,Food,AboutMe,Taco,Cappuchino,GnocchiLihapullat,Cake };
+export { Home,Recipes,Food,AboutMe,Taco,Cappuchino,NotFound,GnocchiLihapullat,Cake };

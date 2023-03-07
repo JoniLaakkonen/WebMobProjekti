@@ -54,6 +54,7 @@ function Food() {
         </Box>
       </div>
     </>
+    
   )
 }
 

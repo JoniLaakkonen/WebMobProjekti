@@ -1,0 +1,14 @@
+#error{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+#error h1 {
+    color: red;
+}
+#error h1, p{
+    text-align: center;
+    margin-top: 20px;
+}
