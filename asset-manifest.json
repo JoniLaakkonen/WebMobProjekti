@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WebMobProjekti/static/css/main.7909d839.css",
-    "main.js": "/WebMobProjekti/static/js/main.2c3145a8.js",
+    "main.css": "/WebMobProjekti/static/css/main.2d3b12f0.css",
+    "main.js": "/WebMobProjekti/static/js/main.f9d99a39.js",
     "static/media/pizzatable.jpg": "/WebMobProjekti/static/media/pizzatable.3c66ee0cd7210c732a51.jpg",
     "static/media/minakuva.JPG": "/WebMobProjekti/static/media/minakuva.b2860388cdacbf72e73f.JPG",
     "index.html": "/WebMobProjekti/index.html",
-    "main.7909d839.css.map": "/WebMobProjekti/static/css/main.7909d839.css.map",
-    "main.2c3145a8.js.map": "/WebMobProjekti/static/js/main.2c3145a8.js.map"
+    "main.2d3b12f0.css.map": "/WebMobProjekti/static/css/main.2d3b12f0.css.map",
+    "main.f9d99a39.js.map": "/WebMobProjekti/static/js/main.f9d99a39.js.map"
   },
   "entrypoints": [
-    "static/css/main.7909d839.css",
-    "static/js/main.2c3145a8.js"
+    "static/css/main.2d3b12f0.css",
+    "static/js/main.f9d99a39.js"
   ]
 }
